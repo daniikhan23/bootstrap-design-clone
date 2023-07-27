@@ -107,3 +107,17 @@ header {
 .header ul {
   margin-left: auto;
 }
+
+/* Banner */
+.banner-section {
+  text-align: center;
+  background: url(/assets/images/Rectangle\ 17.jpg);
+  padding: 5rem;
+  margin-bottom: 18rem;
+}
+
+.banner-section h1 {
+  font-size: 7rem;
+  color: #FFF;
+  font-weight: 300;
+}
