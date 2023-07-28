@@ -169,6 +169,10 @@ header {
 }
 /* Cards Section*/
 
+.cards-section {
+  margin-bottom: 20rem;
+}
+
 .cards-section .card {
   border: none;
 }
@@ -194,4 +198,14 @@ header {
   font-weight: 500;
   color: #646464;
   width: 22rem;
+}
+
+.cards-section .button-container .btn{
+  font-size: 2rem;
+  background: url(/assets/images/Rectangle\ 1.jpg);
+  color: #FFF;
+  border: 0;
+  padding: 2rem 5rem;
+  margin-top: 5rem;
+  border-radius: 0;
 }
