@@ -157,3 +157,41 @@ header {
     width: 100px;
   }
 }
+
+/*Border Section */
+.borders-section .border-bottom {
+  width: 350px;
+  height: 2px;
+  background-color: #eeeee4;
+  display: inline-block;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+}
+/* Cards Section*/
+
+.cards-section .card {
+  border: none;
+}
+
+.cards-section .card-group {
+  margin-bottom: 2rem;
+}
+
+.cards-section .card img {
+  height: 8rem;
+  width: 8rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.cards-section .card-body h5 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.cards-section .card-body p {
+  font-weight: 500;
+  color: #646464;
+  width: 22rem;
+}
