@@ -228,13 +228,14 @@ header {
 .cards-section .card-body h5 {
   font-weight: 700;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .cards-section .card-body p {
-  font-weight: 500;
+  font-weight: 400;
   color: #646464;
   width: 22rem;
+  font-size: 2rem;
 }
 
 .cards-section .button-container .btn{
