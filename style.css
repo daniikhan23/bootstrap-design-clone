@@ -262,3 +262,26 @@ header {
   border-radius: 0;
 }
 
+/*Icon Cards Section*/
+
+.icon-cards-section .card {
+  border: none;
+}
+
+.icon-cards-section .card h4 {
+  color: #34CBE1;
+}
+
+.icon-cards-section p {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.icon-cards-section .card-body {
+  margin-top: 5rem;
+  margin-right: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
