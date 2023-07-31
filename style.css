@@ -158,6 +158,43 @@ header {
   }
 }
 
+/* Alt Divider Section*/
+.alt-divider-section {
+  margin-bottom: 5rem;
+}
+
+.alt-divider-section .title {
+  color: #000;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.alt-divider-section .title-color {
+  color: #34CBE1;
+  font-size: 6rem;
+}
+
+.alt-divider-section .description {
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.alt-divider-section .border-start {
+  height: 130px;
+  width: 2px;
+  background-color: #000;
+  display: inline-block;
+  margin-left: 10rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .alt-divider-section .border-start {
+    height: 2px;
+    width: 100px;
+  }
+}
+
 /*Border Section */
 .borders-section .border-bottom {
   width: 350px;
@@ -297,6 +334,7 @@ header {
   border: 0;
   padding: 2rem 5rem;
   margin-top: 2.5rem;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
   border-radius: 0;
 }
+
