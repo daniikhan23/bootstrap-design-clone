@@ -352,7 +352,17 @@ header {
   padding-right: 20rem;
 }
 
+.footer-section .col-xl-4 .img-google {
+  height: 40px;
+  width: 120px;
+  margin-top: 5rem;
+}
 
+.footer-section .col-xl-4 .img-apple {
+  height: 60px;
+  width: 180px;
+  margin-top: 4rem;
+}
 
 .footer-section .col-xl-8 .list-group-item {
   border: none;
