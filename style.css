@@ -339,3 +339,41 @@ header {
   border-radius: 0;
 }
 
+/* Footer Section*/
+
+.footer-section {
+  margin-top: 10rem;
+}
+
+.footer-section .col-xl-4 .img-main {
+  width: 600px;
+  height: 580px;
+  padding: 0;
+  padding-right: 20rem;
+}
+
+
+
+.footer-section .col-xl-8 .list-group-item {
+  border: none;
+}
+
+.footer-section .col-xl-8 .list-group-item h4 {
+  color: #34CBE1;
+}
+
+.footer-section .col-xl-8 .list-group-item p {
+  font-weight: 300;
+}
+
+.footer-section .button-container .btn{
+  font-size: 2rem;
+  background: url(/assets/images/Rectangle\ 1.jpg);
+  color: #FFF;
+  border: 0;
+  padding: 2rem 5rem;
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+  margin-left: 5rem;
+  border-radius: 0;
+}
