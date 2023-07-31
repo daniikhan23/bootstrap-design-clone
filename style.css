@@ -251,3 +251,12 @@ header {
   color: #A6D856;
 }
 
+.text-cards-section .button-container .btn{
+  font-size: 3rem;
+  background: url(/assets/images/Rectangle\ 1.jpg);
+  color: #FFF;
+  border: 0;
+  padding: 2rem 5rem;
+  margin-top: 10rem;
+  border-radius: 0;
+}
