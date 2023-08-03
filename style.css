@@ -97,7 +97,7 @@ header {
 
 .header .navbar-nav .btn{
   font-size: 1.6rem;
-  background: url(/assets/images/Rectangle\ 1.jpg);
+  background: url(assets/images/Rectangle\ 1.jpg);
   border: 0;
   padding: 2rem;
   margin-top: 0;
@@ -111,7 +111,7 @@ header {
 /* Banner */
 .banner-section {
   text-align: center;
-  background: url(/assets/images/Rectangle\ 17.jpg);
+  background: url(assets/images/Rectangle\ 17.jpg);
   padding: 5rem;
   margin-bottom: 18rem;
 }
@@ -240,7 +240,7 @@ header {
 
 .cards-section .button-container .btn{
   font-size: 3rem;
-  background: url(/assets/images/Rectangle\ 1.jpg);
+  background: url(assets/images/Rectangle\ 1.jpg);
   color: #FFF;
   border: 0;
   padding: 2rem 5rem;
@@ -291,7 +291,7 @@ header {
 
 .text-cards-section .button-container .btn{
   font-size: 3rem;
-  background: url(/assets/images/Rectangle\ 1.jpg);
+  background: url(assets/images/Rectangle\ 1.jpg);
   color: #FFF;
   border: 0;
   padding: 2rem 5rem;
@@ -330,7 +330,7 @@ header {
 
 .icon-cards-section .button-container .btn{
   font-size: 3rem;
-  background: url(/assets/images/Rectangle\ 1.jpg);
+  background: url(assets/images/Rectangle\ 1.jpg);
   color: #FFF;
   border: 0;
   padding: 2rem 5rem;
@@ -378,7 +378,7 @@ header {
 
 .footer-section .button-container .btn{
   font-size: 2rem;
-  background: url(/assets/images/Rectangle\ 1.jpg);
+  background: url(assets/images/Rectangle\ 1.jpg);
   color: #FFF;
   border: 0;
   padding: 2rem 5rem;
