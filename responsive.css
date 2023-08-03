@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-section .card {
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    padding: auto 0;
+  }
+
+  .footer-section .col-xl-4 .img-main {
+    height: 40rem;
+    margin-bottom: 10rem;
+  }
+}
