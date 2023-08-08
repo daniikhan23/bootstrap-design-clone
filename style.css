@@ -376,8 +376,21 @@ header {
   color: #34CBE1;
 }
 
+.footer-section h4::before {
+  content: '';
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 2rem;
+}
+
+.footer-section .mb-1::before {
+  background-color: #A6D856;
+}
+
 .footer-section .col-xl-8 .list-group-item p {
   font-weight: 300;
+  margin-left: 3.2rem;
 }
 
 .footer-section .button-container .btn{
