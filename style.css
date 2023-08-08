@@ -111,7 +111,7 @@ header {
 /* Banner */
 .banner-section {
   text-align: center;
-  background: url(assets/images/Rectangle\ 17.jpg);
+  background: linear-gradient(90deg, rgba(108,187,104,1) 17%, rgba(46,170,205,1) 50%, rgba(31,93,158,1) 87%);
   padding: 5rem;
   margin-bottom: 18rem;
 }
