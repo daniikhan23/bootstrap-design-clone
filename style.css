@@ -350,21 +350,24 @@ header {
 }
 
 .footer-section .col-xl-4 .img-main {
-  width: 600px;
-  height: 450px;
-  padding: 0;
-  padding-right: 20rem;
+  object-fit: cover;
+  height: 56rem;
+  width: 60rem;
 }
 
 .footer-section .col-xl-4 .img-google {
-  height: 40px;
-  width: 120px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15rem;
   margin-top: 5rem;
 }
 
 .footer-section .col-xl-4 .img-apple {
-  height: 60px;
-  width: 180px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15rem;
   margin-top: 4rem;
 }
 
@@ -374,6 +377,7 @@ header {
 
 .footer-section .col-xl-8 .list-group-item h4 {
   color: #34CBE1;
+  margin-left: 3rem;
 }
 
 .footer-section h4::before {
@@ -390,7 +394,7 @@ header {
 
 .footer-section .col-xl-8 .list-group-item p {
   font-weight: 300;
-  margin-left: 3.2rem;
+  margin-left: 6.2rem;
 }
 
 .footer-section .button-container .btn{
