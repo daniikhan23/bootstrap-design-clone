@@ -324,9 +324,13 @@ header {
 }
 
 .icon-cards-section img {
-  max-width: 30rem;
-  height: auto;
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  margin: 5rem;
+  margin-right: 0;
 }
+
 
 .icon-cards-section .button-container .btn{
   font-size: 3rem;
