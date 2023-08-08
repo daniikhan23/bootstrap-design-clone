@@ -1,3 +1,16 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   body {
     display: flex;
@@ -14,5 +27,45 @@
   .footer-section .col-xl-4 .img-main {
     height: 40rem;
     margin-bottom: 10rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .footer-section{
+    margin-top: 5rem;
+  }
+  
+  .footer-section .col-xl-4 .img-main {
+    height: 50rem;
+    width: 95rem;
+  }
+
+  .footer-section .col-xl-4 .row .col {
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer-section .button-link {
+    margin-left: 25rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .footer-section .col-xl-4 .img-main {
+    height: 56rem;
+    width: 60rem;
+  }
+
+  .footer-section .col-xl-4 .row .col {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-section .button-link {
+    margin-left: 0;
   }
 }
