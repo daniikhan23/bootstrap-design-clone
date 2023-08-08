@@ -29,7 +29,7 @@
   
   .footer-section .col-xl-4 .img-main {
     height: 50rem;
-    width: 95rem;
+    width: 94rem;
   }
 
   .footer-section .col-xl-4 .row .col {
@@ -111,7 +111,33 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+  
+  /* Header */
+  header {
+    margin-bottom: 20rem;
+  }
 
+  /* Banner Section */
+  .banner-section {
+    padding: 5rem 0;
+    margin-bottom: 10rem;
+  }
+
+  .banner-section h1 {
+    font-size: 3.5rem;
+  }
+
+  /* Divider Section*/
+
+  .divider-section .title,
+  .divider-section .title-color   {
+    font-size: 3rem;
+  }
+
+  .divider-section .description {
+    font-size: 2rem;
+  }
+  
   .divider-section .col {
     padding-right: 0;
   }
@@ -122,14 +148,16 @@
 
   .divider-section .border-start {
     margin-left: 3.5rem;
+    width: 200px;
   }
   .divider-section p {
     margin-left: 3.5rem;
   }
 
+  /* Borders Section */
   .borders-section .border-bottom {
     margin-left: 0;
-    width: 10rem;
+    width: 5rem;
     margin-bottom: 3rem;
   }
 
@@ -137,8 +165,24 @@
     margin-bottom: 5rem;
   }
 
+  /* Alt Divider Section */
+
+  .alt-divider-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .alt-divider-section .title,
+  .alt-divider-section .title-color   {
+    font-size: 3rem;
+  }
+
+  .alt-divider-section .description {
+    font-size: 2rem;
+  }
+
   .alt-divider-section .border-start {
     margin-left: 4rem;
+    width: 200px;
   }
   
   .alt-divider-section h2 {
@@ -148,6 +192,15 @@
   .alt-divider-section p {
     margin-left: 3.5rem;
   }
+
+  /* Text Cards Section */
+  .text-cards-section .border-bottom {
+    margin-bottom: 2rem;
+  }
+
+  .text-cards-section .row .card-title h3 {
+    font-size: 3rem;
+  } 
 
   .icon-cards-section img {
     margin: 0;
@@ -161,9 +214,16 @@
     text-align: center;
   }
   
+  /* Footer Section */
+
+  .footer-section {
+    margin-top: 0;
+  }
+
   .footer-section .col-xl-4 .img-main {
-    height: 30rem;
-    width: 41rem;
+    height: 40rem;
+    width: 33rem;
+    margin-left: 2.5rem;
     margin-bottom: 2.5rem;
   }
 
@@ -176,12 +236,12 @@
   }
 
   .footer-section .row .col-6 img {
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     margin-bottom: 5rem;
   }
 
   .footer-section .button-container .btn {
-    margin-left: -10rem;
+    margin-left: -14rem;
   }
 }
 
